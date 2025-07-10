@@ -1,0 +1,62 @@
+/* assignment project style */
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared style */
+.btn1{
+    font-size: 20px;
+    background-color: rgb(10, 39, 201);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px;
+    cursor: pointer ;
+}
+.btn1:hover{
+    background-color: rgb(250, 206, 9);
+    color: rgb(4, 78, 4);
+    font-size: 22px;
+    transition: 0.3s;
+
+    
+}
+/* nav style */
+header{
+    background: url(../image/Hero-bg.png);
+    height: 100vh;
+    
+}
+nav{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+
+}
+nav h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(2, 21, 194);
+}
+/* banner section style */
+.banner{
+    text-align: center;
+    margin: 140px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #252432;
+}
+
