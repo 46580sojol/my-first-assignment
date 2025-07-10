@@ -11,6 +11,9 @@
     margin: 0;
     padding: 0;
 }
+.linear{
+    background: linear-gradient(90deg,#9503fd00,#00aefe1a);
+}
 main{
     max-width: 1140px;
     margin: 100px auto;
