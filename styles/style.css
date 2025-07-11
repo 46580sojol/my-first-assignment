@@ -242,3 +242,38 @@ textarea{
 ::placeholder{
     color: green;
 }
+
+/* foot section style */
+.foot{
+    text-align: center;
+    background-color: #252432;
+}
+.foot-title{
+    font-size: 70px;
+    padding: 100px 0px 10px 0px;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+.foot-des{
+    font-size: 20px;
+    color: #e4dfdf;
+    padding: 20px 300px;
+}
+.foot-link{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.foot-link a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    background-color: #4E47FF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.foot-link a:hover{
+    background-color: rgb(60, 61, 61);
+}
+
