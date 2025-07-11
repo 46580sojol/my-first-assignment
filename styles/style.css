@@ -197,3 +197,48 @@ nav h1{
     margin-bottom: 30px;
     border-radius: 30px;
 }
+/* touch section style */
+.touch-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 50px ;
+}
+.touch-contant{
+     width: 50%;
+      /* border: 2px solid red; */
+      
+
+}
+.touch-title{
+    font-size: 90px;
+    color: #000000;
+    font-weight: bolder;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+label{
+    font-size: 20px;
+    font-style: italic;
+    color: darkorange;
+    font-weight: bolder;
+}
+input[type="email"], [type="password"] {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+textarea{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+::placeholder{
+    color: green;
+}
