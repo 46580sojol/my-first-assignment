@@ -28,6 +28,8 @@ main{
     font-weight: 700;
     box-shadow: 1px 1px 10px;
     cursor: pointer ;
+    /* margin-bottom: 120px; */
+    border: 1px solid rgb(252, 252, 252);
 }
 .btn1:hover{
     background-color: rgb(250, 206, 9);
@@ -117,7 +119,8 @@ nav h1{
 }
 .number1{
     font-size: 80px;
-    font-weight: bold;
+    font-weight: normal;
+    font-family: Impact;
     color: #4E47FF;
     padding-bottom: 50px;
    
@@ -164,4 +167,33 @@ nav h1{
     display: flex;
     gap: 20px;
     padding-bottom: 20px;
+}
+/* focus section style */
+.focus{
+    background-color: #e4dfdf;
+    border-radius: 20px;
+}
+.focus-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.focus-title{
+    font-size: 40px;
+    color: #000000;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.focus-des{
+    font-size: 20px;
+    color: #00000067;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.focus-contant img{
+    
+    margin-bottom: 30px;
+    border-radius: 30px;
 }
